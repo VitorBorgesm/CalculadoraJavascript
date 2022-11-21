@@ -1,0 +1,1 @@
+fazendo calculos em javascript + HTMl/css

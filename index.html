@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        div#divprincipal{
+            background-color: rgb(89, 89, 89);
+        }
+
+
+    </style>
+
+    <title>Calculadora Javascript TOP</title>
+  </head>
+  <body>
+    <div class="container" id="divprincipal">
+        <div class="row">
+            <div >
+                <button onclick="MostarOperacoes()">Mostrar Operacoes</button>
+                <p ></p>
+            </div>
+            <div class="col-md-4">
+                <button onclick="tabuadacinco()">Mostrar Tabuada do 5</button>
+                <p id="tabuada5"></p>
+            </div>
+    
+            </div>
+           
+            <div class="col-md-4">
+                <button onclick="ExibirTabuadaNum()">Calcular Tabuada</button>
+                <p id="tabuada"></p>
+            </div>
+
+            <div class="col-md-4">
+                <button onclick="CustoCarro()">
+                    Calcular o custo de carro
+                </button>
+            </div>
+
+            <br>
+            <br>
+            <div class=>
+                <h2>-- Calculadora --</h2>
+                
+                    <h3>Digite o primeiro número:</h3>
+                    <input id="textinput1" name="textinput" type="number">
+               
+                    <h3>Digite o segundo número:</h3>
+                    <input id="textinput2" name="textinput" type="number">
+                
+                <br>
+                
+                    <legend><h3>Selecione a operação desejada:</h3></legend>
+                    <div>
+                        <input type="radio" id="multiplicacao" name="operacao" value="multiplicacao">
+                        <label for="operacao"> Multiplicação </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="divisao" name="operacao" value="divisao">
+                        <label for="operacao"> Divisão </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="soma" name="operacao" value="soma">
+                        <label for="operacao"> Soma </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="subtracao" name="operacao" value="subtracao">
+                        <label for="operacao"> Subtração </label>
+                    </div>
+                </fieldset>
+                <input type="button" id="btnCalcular" value="Calcular" />
+            </div>
+            <br>
+            <br>
+            <div >
+                <button onclick="Array()">Array</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
